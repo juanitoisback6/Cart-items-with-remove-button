@@ -1,0 +1,54 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+* {
+   
+   background-color: rgb(0, 0, 0);
+  font-family: 'Pixelify Sans', sans-serif;
+  color: #ffffff;
+}
+
+body { 
+          font-family: sans-serif; 
+          padding: 20px; 
+          display: flex; 
+          justify-content: center; 
+}
+.container 
+{ display: flex; 
+          gap: 50px;
+ }
+.card { 
+          border: 1px solid #ccc; 
+          padding: 15px; 
+          margin-bottom: 10px; 
+          border-radius: 5px; 
+          background-color: #4b4a4a;
+}
+.btn-add { 
+          background: #28a745; 
+          color: white; 
+          border: none; 
+          padding: 8px 15px; 
+          cursor: pointer; 
+}
+.btn-add:hover { 
+          background: #218838; 
+}
+.cart-section { 
+          border-left: 2px solid #ddd; 
+          padding-left: 20px; 
+          width: 250px; 
+}
+#cart-items li {
+           margin-bottom: 5px; 
+           border-bottom: 1px dashed #eee;
+            list-style: none; }
+#btn-clean { 
+          background: #dc3545; 
+          color: white; 
+          border: none; 
+          padding: 5px 10px; 
+          margin-top: 10px;
+           cursor: pointer; }
