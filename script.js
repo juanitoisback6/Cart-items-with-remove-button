@@ -15,6 +15,8 @@ let total = 0 ;
 
 deleteBtn.addEventListener("click", () => {
 
+
+          total = 0 ;
 totalPrice.innerText = 0;
 
 cartItems.replaceChildren();
